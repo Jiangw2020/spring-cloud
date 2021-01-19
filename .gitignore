@@ -1,0 +1,4 @@
+# Project exclude paths
+/spring-cloud-common/target/
+/spring-cloud-consumer/target/
+/spring-cloud-provider/target/
