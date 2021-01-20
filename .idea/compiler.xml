@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-provider" />
+        <module name="spring-cloud-zuul" />
+        <module name="spring-cloud-feign-consumer" />
         <module name="spring-cloud-common" />
         <module name="spring-cloud-hystrix-dashboard" />
-        <module name="spring-cloud-provider" />
         <module name="spring-cloud-eureka" />
-        <module name="spring-cloud-feign-consumer" />
         <module name="spring-cloud-consumer" />
       </profile>
     </annotationProcessing>

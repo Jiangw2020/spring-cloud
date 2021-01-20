@@ -1,0 +1,17 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
+zuul:
+  routes:
+    employee:                   # 自定义路由规则的名称，在底层的数据结构中是 Map 的键
+      serviceId: feign-consumer # 目标微服务名称，ZuulRoute 类型的一个属性
+      # /**表示匹配多层路径，如果没有加/**则不能匹配后续的多层路径了
+      path: /zuul-emp/**        # 用来代替目标微服务名称的路径， ZuulRoute 类型的一个属性
+  ignored-services: '*'         # 忽略所有微服务名称
+  prefix: /jw                   # 给访问路径添加统一前缀
