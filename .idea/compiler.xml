@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-common" />
         <module name="spring-cloud-provider" />
+        <module name="spring-cloud-eureka" />
         <module name="spring-cloud-consumer" />
       </profile>
     </annotationProcessing>
