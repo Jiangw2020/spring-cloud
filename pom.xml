@@ -13,6 +13,7 @@
         <module>spring-cloud-consumer</module>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-feign-consumer</module>
+        <module>spring-cloud-hystrix-dashboard</module>
     </modules>
 
     <dependencyManagement>

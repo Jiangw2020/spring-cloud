@@ -7,3 +7,8 @@ eureka:
 spring:
   application:
     name: provider
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
