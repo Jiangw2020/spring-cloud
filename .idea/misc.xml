@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/spring-cloud-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/spring-cloud-eureka" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-cloud-feign-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/spring-cloud-provider" />
   </component>
   <component name="MavenProjectsManager">

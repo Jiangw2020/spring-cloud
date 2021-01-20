@@ -1,6 +1,6 @@
 package jw.spring.cloud.handler;
 
-import jw.entity.Employee;
+import jw.spring.cloud.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

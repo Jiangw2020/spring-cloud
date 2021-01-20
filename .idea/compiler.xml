@@ -9,6 +9,7 @@
         <module name="spring-cloud-common" />
         <module name="spring-cloud-provider" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-feign-consumer" />
         <module name="spring-cloud-consumer" />
       </profile>
     </annotationProcessing>

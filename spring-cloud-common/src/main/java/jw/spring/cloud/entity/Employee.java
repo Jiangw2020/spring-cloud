@@ -1,4 +1,4 @@
-package jw.entity;
+package jw.spring.cloud.entity;
 
 public class Employee {
     private Integer empId;
